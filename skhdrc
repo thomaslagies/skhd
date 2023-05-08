@@ -56,4 +56,8 @@ shift + alt - 7 : yabai -m window --space 7
 
 # start/stop yabai
 ctrl + alt - q : brew services stop yabai
-ctrl + alt - s : brew services start yabai
+ctrl + alt - s : brew services restart yabai
+
+# start obs with virtual cam
+
+shift + cmd - u : /Applications/OBS.app/Contents/MacOS/obs --startvirtualcam > /dev/null 2>&1
